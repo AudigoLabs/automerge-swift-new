@@ -13,7 +13,7 @@ path = "uniffi-bindgen.rs"
 required-features = ["uniffi/cli"]
 
 [dependencies]
-automerge = "0.5.11"
+automerge = { git = "https://github.com/AudigoLabs/automerge", rev = "28bd9a1" }
 thiserror = "1.0.38"
 uniffi = "0.27.1"
 
